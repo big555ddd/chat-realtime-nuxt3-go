@@ -1,4 +1,4 @@
-# 💬 Real-Time Chat Application
+# 💬 Real-Time Chat Web
 
 A modern real-time chat application built with **Go**, **Gin**, **Sockie**, and **Nuxt 3**. Designed for scalability, performance, and seamless user interaction.
 
