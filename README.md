@@ -1,4 +1,3 @@
-Description
 This project is a real-time chat application built with a modern tech stack, leveraging the strengths of Go, Gin, Sockie, and Nuxt 3:
 
 Backend: Go (Gin + Sockie)
