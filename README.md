@@ -1,20 +1,87 @@
-This project is a real-time chat application built with a modern tech stack, leveraging the strengths of Go, Gin, Sockie, and Nuxt 3:
+# 💬 Real-Time Chat Application
 
-Backend: Go (Gin + Sockie)
-Gin Framework: A lightweight and fast HTTP web framework for Go, ideal for building RESTful APIs with minimal overhead.
-Sockie: A robust WebSocket library for enabling real-time communication, ensuring seamless and efficient client-server messaging.
-Features:
-RESTful API endpoints for managing users, authentication, and chat data.
-Real-time WebSocket communication for instant updates and interactions.
-High performance and scalability, leveraging Go's concurrency model.
-Frontend: Nuxt 3
-Nuxt 3: A cutting-edge framework built on top of Vue.js, designed for server-side rendering (SSR), static site generation (SSG), and hybrid rendering.
-Features:
-A dynamic, responsive, and user-friendly interface for chat interactions.
-Integrated with the backend using RESTful APIs and WebSocket connections.
-Enhanced developer experience with TypeScript support and reusable Vue components.
-Key Highlights:
-Real-Time Functionality: Smooth and instantaneous updates between users, powered by WebSocket.
-Separation of Concerns: A clear division between backend and frontend responsibilities for maintainability and scalability.
-Modern Tech Stack: Combines the performance of Go with the flexibility of Vue and Nuxt 3.
-This stack is perfect for real-time applications like chat platforms, collaborative tools, or dashboards requiring live updates.
+A modern real-time chat application built with **Go**, **Gin**, **Sockie**, and **Nuxt 3**. Designed for scalability, performance, and seamless user interaction.
+
+---
+
+## 🚀 Tech Stack
+
+### 🔧 Backend — Go + Gin + Sockie
+- **Gin**: Lightweight, high-performance HTTP framework.
+- **Sockie**: Efficient WebSocket library for real-time communication.
+
+#### 📦 Features
+- RESTful API for user, auth, and chat management
+- WebSocket-powered real-time messaging
+- Scalable performance with Go’s concurrency model
+
+### 🌐 Frontend — Nuxt 3 (Vue 3)
+- **Nuxt 3**: Modern framework supporting SSR, SSG, and hybrid rendering
+- TypeScript & Vue 3 component architecture
+
+#### 🎨 Features
+- Real-time updates via WebSocket
+- Integrated REST API & WebSocket support
+
+---
+
+## 📁 Project Structure
+
+```
+/backend      → Go Gin server + Sockie for WebSockets
+/frontend     → Nuxt 3 frontend (Vue-based SPA/SSR)
+```
+
+---
+
+## ⚙️ Backend Setup
+
+```bash
+# Run API server
+go run . http
+
+# Run database migrations
+go run . migrate up
+
+# Rollback migrations
+go run . migrate down
+
+# Seed initial data
+go run . migrate seed
+
+# Refresh migrations and reseed
+go run . migrate refresh
+```
+
+> 💡 Make sure you have Go and your database configured before running these.
+
+---
+
+## 🎨 Frontend Setup
+
+```bash
+# Install dependencies
+yarn
+
+# Start local dev server
+yarn dev
+
+# Build for production
+yarn build
+```
+
+---
+
+## 🌟 Key Highlights
+
+- ⚡ **Real-Time Messaging**: Instant updates using WebSockets
+- 🔒 **Authentication & API**: Secure user and chat data management
+- 🧹 **Separation of Concerns**: Cleanly split backend & frontend logic
+- 🚀 **High Performance**: Built for speed and scale
+
+---
+
+## 📌 Ideal Use Cases
+- Live chat applications
+- Collaborative dashboards
+- Real-time notification systems
