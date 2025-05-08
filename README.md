@@ -6,7 +6,7 @@ A modern real-time chat application built with **Go**, **Gin**, **WebSocket**, a
 
 ## 🚀 Tech Stack
 
-### 🔧 Backend — Go + Gin + Sockie
+### 🔧 Backend — Go + Gin + WebSocket
 - **Gin**: Lightweight, high-performance HTTP framework.
 - **Sockie**: Efficient WebSocket library for real-time communication.
 
